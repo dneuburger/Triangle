@@ -1,9 +1,7 @@
 import static org.junit.Assert.assertEquals;
 import org.junit.Test;
 public class TriangleTest extends Triangle{
-
-	protected double side1, side2, side3;
-	
+	protected double s1, s2, s3;
 	@Test
 	public void test() {
 		Triangle test = new Triangle(3,4,5);
